@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--  CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <title>Swyms Tweet</title>
+</head>
+<body>
+  <!--  Main wrapper -->
+
+  <div class="wrapper">
+    <div class="mainbody" id="mainbody">
+
+      <!--  Left Column -->
+
+      <div class="col1">
+
+        <div class="nav-menu-item"><i class="fab fa-twitter " style="font-size: 30px"></i> </div>
+        <div class="nav-menu-item"><i class="fas fa-home "style="padding-right:5px;"></i> Home</div>
+        <div class="nav-menu-item"><i class="fas fa-hashtag"style="padding-right:5px;"></i>  Explore</div>
+        <div class="nav-menu-item"><i class="fas fa-bell"style="padding-right:5px;"></i>  Notifications</div>
+        <div class="nav-menu-item"><i class="fas fa-envelope"style="padding-right:5px;"></i>  Messages</div>
+        <div class="nav-menu-item"><i class="fas fa-bookmark"style="padding-right:5px;"></i> Bookmarks</div>
+        <div class="nav-menu-item"><i class="fas fa-stream"style="padding-right:5px;"></i> Lists</div>
+        <div class="nav-menu-item"><i class="fas fa-user-circle"style="padding-right:5px;"></i> Profile</div>
+        <div class="nav-menu-item"><i class="fas fa-ellipsis-h"style="padding-right:5px;"></i> More</div>
+        <div class="nav-menu-item"><button class="btn-1" type="button" name="button">Tweet</button></div>
+
+      </div>
+
+      <!--  Feed Column -->
+
+      <div class="col2">
+        <div class="home-header">
+          <h4>Home</h4>
+        </div>
+        <hr class="new1">
+        <div class="post-tweet">
+          <i class="fas fa-user-circle" style="font-size: 30px; padding-right:10px; color:#22A1F2"></i>
+          <input class="tweetbox"type="text" id="input_tweet_box" placeholder="What's happening?">
+
+          <div class="post-options" id="post-option">
+            <i class="far fa-image" style="font-size: 25px; padding-right:20px; color:#22A1F2"> </i>
+            <i class="fas fa-poll-h"style="font-size: 25px; padding-right:20px; color:#22A1F2"></i>
+            <i class="far fa-smile" style="font-size: 25px; padding-right:20px; color:#22A1F2"></i>
+            <button class="tweet-btn" id="input_tweet" type="button" name="button">Tweet</button>
+          </div>
+
+        </div>
+        <hr class="new2">
+
+        <!-- Tweets- Section -->
+        <div id="container">
+          <div class="comment-box">
+            <input class="commentbar" id="cmnt_input" type="text" placeholder="Add comment.."><button class="send_btn" id="cmnt_btn" type="button" name="button">+</button><div id="comments-sec"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!--  Right Column -->
+
+      <div class="col3">
+
+        <div class="search-bar">
+          <i class="fas fa-search" style="color:#ffffff"></i><input class="searchbar" type="text" placeholder="Search Twitter">
+        </div>
+        <!--  Trends container -->
+
+        <div class="trends-con">
+          <div class="trends-header">
+            <i class="fas fa-cog"></i> Trends for you
+          </div>
+          <hr class="new1">
+          <div class="trends-item">
+            Trending in India
+            <h6><strong>#Valentinesday</strong><br>81.1K Tweets</h6>
+            <hr class="new1">
+          </div>
+          <div class="trends-item">
+            Trending in India
+            <h6><strong>#Coronavirus</strong><br>40.2K Tweets</h6>
+            <hr class="new1">
+          </div>
+          <div class="trends-item">
+            Trending in India
+            <h6><strong>#Jallikattu</strong><br>10.6K Tweets</h6>
+            <hr class="new1">
+          </div>
+          <div class="trends-item">
+            <a href="#">Show more</a>
+          </div>
+        </div>
+        <!--  Who to Follow container -->
+
+        <div class="follow-con">
+          <ul>
+
+            <div class="follow-header">
+              Who to Follow
+            </div>
+            <hr class="new1">
+            <li>
+            <div class="follow-item1">
+              <h6><i class="fas fa-user-circle"></i><strong> User name</strong><button class="follow_btn" type="button" name="button">Follow</button><br> @username</h6>
+            </div>
+            <hr class="new1"></li>
+            <li>
+            <div class="follow-item1">
+              <h6><i class="fas fa-user-circle"></i><strong> User name</strong><button class="follow_btn" type="button" name="button">Follow</button><br> @username</h6>
+            </div>
+            <hr class="new1"></li>
+            <li>
+            <div class="follow-item1">
+              <h6><i class="fas fa-user-circle"></i><strong> User name</strong><button class="follow_btn" type="button" name="button">Follow</button><br> @username</h6>
+            </div>
+            <hr class="new1"></li>
+          </ul>
+        </div>
+
+      </div>
+      <!--  End of Right Column -->
+
+      </div>
+      </div>
+      <!--  END of wrapper -->
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/a68eacac21.js" crossorigin="anonymous"></script>
+
+    </body>
+    </html>

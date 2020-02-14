@@ -1,0 +1,276 @@
+body{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr.new1{
+  border-top: 1px solid #38434C;
+}
+hr.new2{
+  border-top: 6px solid #38434C;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #38434C;
+}
+
+.mainbody{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px auto 0px auto;
+  background-color:#38434C ;
+}
+
+.col1{
+  width: 23.6%;
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  background-color: #15202B;
+}
+
+.col2{
+  width: 46.1%;
+  height: 100%;
+  float: left;
+  margin-left: .15%;
+  overflow: scroll;
+  background-color: #15202B;
+}
+
+.col3{
+  width: 30%;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  background-color: #15202B;
+}
+
+.nav-menu-item{
+  width:80%;
+  height: auto;
+  margin-left: 20px;
+  padding-left: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  color: white;
+  background-color: #15202B;
+}
+.nav-menu-item:hover{
+  background-color: #142952;
+}
+
+.btn-1{
+  transition-duration: 0.2s;
+  background-color: #22A1F2;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 66px;
+  color: white;
+}
+
+.btn-1:hover {
+  background-color: #142952; /* Green */
+  color: white;
+}
+
+.search-bar{
+
+  width: 85%;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color:#243241 ;
+}
+
+.searchbar{
+  color: white;
+  width: 90%;
+  margin-left: 10px;
+  border: none;
+  background-color:#243241 ;
+}
+
+.trends-con{
+  width: 85%;
+  height: 375px;
+  margin-left: 5%;
+  margin-top: 15px;
+  padding: 5px;
+  color: white;
+  border-radius: 12px;
+  background-color: #182634;
+}
+
+.trends-header{
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trends-item{
+  padding-left: 10px;
+  color: #81919E;
+  font-size: 14px;
+}
+
+strong{
+  color: white;
+}
+
+.follow-con{
+  width: 85%;
+  height: 300px;
+  margin-left: 5%;
+  margin-top: 15px;
+  padding: 5px;
+  color: white;
+  border-radius: 12px;
+  background-color: #182634;
+}
+
+.follow-header{
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.follow-item{
+  padding-left: 0px;
+  color: #81919E;
+  font-size: 14px;
+}
+
+.follow-item1{
+  padding-left: 0px;
+  color: #81919E;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.follow_btn{
+  float: right;
+  border-color: #22A1F2;
+  background-color: #182634;
+  margin-left: 60px;
+  border-radius: 12px;
+  padding: 8px 22px;
+  color: #22A1F2;
+  font-weight: bold;
+}
+
+ul{
+  padding-left: 15px;
+  list-style-type:none;
+  height: 250px;
+  overflow-y:scroll;
+}
+
+.home-header{
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.post-tweet{
+  color: white;
+  width: 90%;
+  border-radius: 2px;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color:#15202B ;
+}
+
+.post-options{
+  color: white;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tweetbox{
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  height: 70px;
+  margin-left: 5px;
+  border: none;
+  background-color:#15202B ;
+  display: inline-block;
+}
+
+.vl{
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.tweet-btn{
+  float: right;
+  font-weight: bold;
+  transition-duration: 0.2s;
+  background-color: #22A1F2;
+  border-radius: 16px;
+  border: none;
+  padding: 7px 28px;
+  color: white;
+}
+
+.tweets{
+  padding-left: 20px;
+  padding-top: 10px;
+  color: white;
+  width: 95%;
+  height: auto;
+}
+
+.dis-tweet{
+  padding-top: 5px;
+  padding-left: 35px;
+}
+
+.container{
+  width: 90%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.comment-box{
+  width: 85%;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding: 5px;
+  background-color:#243241 ;
+}
+
+.commentbar{
+  color: white;
+  width: 85%;
+  margin-left: 10px;
+  border: none;
+  background-color:#243241 ;
+}
+
+.send_btn{
+  float: right;
+  border-radius: 50%;
+  border: none;
+}
+
+.comment-text{
+  padding-left: 15px;
+  color: white;
+}
